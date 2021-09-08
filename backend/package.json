@@ -1,0 +1,30 @@
+{
+  "name": "backen-y-fronend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon index.js",
+    "start": "node index.js",
+    "seed": "node  ./seeds/tecnologia.seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandanfabricio/backen-y-fronend.git"
+  },
+  "author": "fabricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandanfabricio/backen-y-fronend/issues"
+  },
+  "homepage": "https://github.com/brandanfabricio/backen-y-fronend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
